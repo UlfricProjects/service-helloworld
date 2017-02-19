@@ -12,7 +12,7 @@ public class HelloResource {
 
 		HelloResponse response = new HelloResponse();
 
-		response.setGreeting("Hello, " + request.getName() + "!");
+		response.setGreeting("Hello, " + name + "!");
 
 		return response;
 	}
