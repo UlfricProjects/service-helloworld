@@ -4,17 +4,16 @@ import com.ulfric.turtle.message.Response;
 
 public class HelloResponse extends Response {
 
-	private String name;
+	private String greeting;
 
-	public HelloResponse(String name)
+	public String getGreeting()
 	{
-		this.name = name;
+		return this.greeting;
 	}
 
-	@Override
-	public String respond()
+	public void setGreeting(String greeting)
 	{
-		return "Hello, " + this.name + "!";
+		this.greeting = greeting;
 	}
 
 }
