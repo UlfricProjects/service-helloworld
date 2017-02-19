@@ -3,14 +3,14 @@ package com.ulfric.service.helloworld;
 import com.ulfric.turtle.message.Response;
 import com.ulfric.turtle.method.GET;
 
-public class DefaultResponseAdapter {
+public class HelloAdapter {
 
 	@GET
-	public Response hello(DefaultRequest request)
+	public Response hello(HelloRequest request)
 	{
 		String name = request.getName();
 
-		Response response = new DefaultResponse(name);
+		Response response = new HelloResponse(name);
 
 		return response;
 	}

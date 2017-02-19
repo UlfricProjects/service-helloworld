@@ -2,11 +2,11 @@ package com.ulfric.service.helloworld;
 
 import com.ulfric.turtle.message.Response;
 
-public class DefaultResponse extends Response {
+public class HelloResponse extends Response {
 
 	private String name;
 
-	public DefaultResponse(String name)
+	public HelloResponse(String name)
 	{
 		this.name = name;
 	}

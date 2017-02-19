@@ -9,7 +9,7 @@ public class HelloWorld extends TurtleService {
 	@Override
 	public void onEnable()
 	{
-		this.install(DefaultResponseAdapter.class);
+		this.install(HelloAdapter.class);
 	}
 
 }

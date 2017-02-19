@@ -1,15 +1,19 @@
 package com.ulfric.service.helloworld;
 
 import com.ulfric.turtle.message.Request;
-import com.ulfric.turtle.method.PARAM;
 
-public class DefaultRequest extends Request {
+public class HelloRequest extends Request {
 
-	@PARAM private String name;
+	private String name;
 
 	public String getName()
 	{
 		return this.name;
+	}
+
+	public void setName(String name)
+	{
+		this.name = name;
 	}
 
 }
