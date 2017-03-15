@@ -6,6 +6,6 @@ public interface HelloRequest extends Request {
 
 	String getName();
 
-	void setName(String name);
+	HelloRequest setName(String name);
 
 }
