@@ -5,7 +5,7 @@ import com.ulfric.turtle.TurtleService;
 public class Hello extends TurtleService {
 
 	@Override
-	public void onEnable()
+	public void onLoad()
 	{
 		this.install(HelloResource.class);
 	}
