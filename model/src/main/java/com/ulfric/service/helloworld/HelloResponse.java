@@ -6,6 +6,6 @@ public interface HelloResponse extends Response {
 
 	String getGreeting();
 
-	void setGreeting(String greeting);
+	HelloResponse setGreeting(String greeting);
 
 }
