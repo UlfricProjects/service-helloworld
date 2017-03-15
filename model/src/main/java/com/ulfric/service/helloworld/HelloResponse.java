@@ -1,19 +1,11 @@
 package com.ulfric.service.helloworld;
 
-import com.ulfric.turtle.message.Response;
+import com.ulfric.turtle.model.Response;
 
-public class HelloResponse extends Response {
+public interface HelloResponse extends Response {
 
-	private String greeting;
+	String getGreeting();
 
-	public String getGreeting()
-	{
-		return this.greeting;
-	}
-
-	public void setGreeting(String greeting)
-	{
-		this.greeting = greeting;
-	}
+	void setGreeting(String greeting);
 
 }

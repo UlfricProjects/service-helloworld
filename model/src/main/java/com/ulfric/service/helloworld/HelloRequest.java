@@ -1,19 +1,11 @@
 package com.ulfric.service.helloworld;
 
-import com.ulfric.turtle.message.Request;
+import com.ulfric.turtle.model.Request;
 
-public class HelloRequest extends Request {
+public interface HelloRequest extends Request {
 
-	private String name;
+	String getName();
 
-	public String getName()
-	{
-		return this.name;
-	}
-
-	public void setName(String name)
-	{
-		this.name = name;
-	}
+	void setName(String name);
 
 }
